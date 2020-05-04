@@ -1,37 +1,37 @@
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 
-import { SubjectList } from './styles';
+import { SubjectList, Subject } from './styles';
 
 export default function Home() {
   return (
     <SubjectList>
       <li>
-        <div>
+        <Subject to="subject">
           <FaAngleRight />
           <strong>Matemática</strong>
-        </div>
+        </Subject>
         <span>90%</span>
       </li>
       <li>
-        <div>
+        <Subject>
           <FaAngleRight />
           <strong>Matemática</strong>
-        </div>
+        </Subject>
         <span>90%</span>
       </li>
       <li>
-        <div>
+        <Subject>
           <FaAngleRight />
           <strong>Matemática</strong>
-        </div>
+        </Subject>
         <span>90%</span>
       </li>
       <li>
-        <div>
+        <Subject>
           <FaAngleRight />
           <strong>Matemática</strong>
-        </div>
+        </Subject>
         <span>90%</span>
       </li>
     </SubjectList>
