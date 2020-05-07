@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaSquare, FaSq } from 'react-icons/fa';
 
 import { Container } from './styles';
 
@@ -12,6 +13,7 @@ export default function Subject() {
       <ul>
         <li>
           <strong>Assunto 1 sobre não sei o que</strong>
+          <FaSquare />
         </li>
         <li>
           <strong>Assunto 1 sobre não sei o que</strong>

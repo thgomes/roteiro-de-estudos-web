@@ -24,9 +24,25 @@ export const Container = styled.div`
 
     li {
       padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: 0.2s;
 
       & + li {
         border-top: solid 1px #eee;
+      }
+
+      &:hover {
+        color: #7289da;
+
+        svg {
+          display: block;
+        }
+      }
+
+      svg {
+        display: none;
       }
     }
   }
