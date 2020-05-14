@@ -11,7 +11,7 @@ export default function Header() {
         <FaBook size={26} />
         <h1>Roteiro de Estudos ENEM</h1>
       </Title>
-      <Link to="about">Sobre</Link>
+      <Link to="/about">Sobre</Link>
     </Container>
   );
 }
