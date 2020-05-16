@@ -10,17 +10,12 @@ export const Container = styled.header`
 
   a {
     font-size: 20px;
-    color: #f1f1f1;
+    color: #fff;
     font-weight: bold;
     padding: 2px 4px;
     border-radius: 4px;
     transition: 0.3s;
     text-decoration: none;
-
-    & + a:hover {
-      background-color: #f1f1f1;
-      color: #7289da;
-    }
   }
 `;
 

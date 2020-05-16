@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const SubjectList = styled.ul`
   list-style-type: none;
-  background-color: #f1f1f1;
+  background-color: #fff;
   border-radius: 4px;
 
   li {
@@ -22,7 +22,7 @@ export const SubjectList = styled.ul`
     }
 
     span {
-      color: #f1f1f1;
+      color: #fff;
       background-color: #444;
       padding: 2px 4px;
       border-radius: 4px;

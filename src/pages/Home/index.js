@@ -15,17 +15,16 @@ export default function Home() {
 
       setSubjects(subjects);
     }
-
     loadSubjects();
   }, []);
 
   return (
     <SubjectList>
       {subjects.map((subject) => (
-        <li key={subject}>
-          <Subject to={`/subjects/${subject}`}>
+        <li key={subject.formatted}>
+          <Subject to={`/subjects/${subject.formatted}`}>
             <FaAngleRight />
-            <strong>{subject}</strong>
+            <strong>{subject.normal}</strong>
           </Subject>
           <span>90%</span>
         </li>

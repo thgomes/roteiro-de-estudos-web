@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FaSquare } from 'react-icons/fa';
-
 import api from '../../services/api';
 import { Container } from './styles';
 
@@ -26,7 +24,6 @@ export default function Subject({ match }) {
         {topics.map((topic, index) => (
           <li key={index}>
             <strong>{topic}</strong>
-            <FaSquare />
           </li>
         ))}
       </ul>
